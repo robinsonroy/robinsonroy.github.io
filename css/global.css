@@ -219,3 +219,18 @@ nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
 nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
 nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
+
+#startStation{
+    float: right;
+}
+#topAlbum{
+    float: left;
+}
+
+main aside img{
+    float: left;
+}
+
+main .name{
+    margin-left: 70px;
+}

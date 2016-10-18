@@ -4,16 +4,10 @@
     font-size: 11px;
   }
 }
-@media screen and (min-width: 1200) and (max-width : 1399px)
+@media screen and (min-width: 600) and (max-width : 1399px)
 {
   html{
     font-size: 10px;
-  }
-}
-@media screen and (min-width: 600px) and (max-width : 1199px)
-{
-  html{
-    font-size: 8px;
   }
 }
 @media screen and (min-width: 450px) and (max-width : 599px)
@@ -25,7 +19,7 @@
 @media screen and (max-width : 449px)
 {
   html{
-    font-size: 7px;
+    font-size: 5px;
   }
 }
 
@@ -43,7 +37,7 @@
 
 
 /*<450px*/
-@media screen and (max-width: 450px)
+@media screen and (max-width: 528px)
 {
   #albums article{
     box-sizing: border-box;
@@ -52,7 +46,7 @@
   }
 }
 
-@media screen and (min-width: 475px)
+@media screen and (min-width: 550px)
 {
   div.stats-links{
     height: 40px
