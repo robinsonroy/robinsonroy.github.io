@@ -1,0 +1,66 @@
+@media screen and (min-width: 1400px)
+{
+  html{
+    font-size: 1px;
+  }
+}
+@media screen and (min-width: 1200) and (max-width : 1399px)
+{
+  html{
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width : 1199px)
+{
+  html{
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 450px) and (max-width : 599px)
+{
+  html{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width : 449px)
+{
+  html{
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 750px)
+{
+  .search{
+    display: none;
+  }
+  .name a {
+    display: none;
+  }
+
+}
+
+
+/*<450px*/
+@media screen and (max-width: 450px)
+{
+  #albums article{
+    box-sizing: border-box;
+    width: 46%;
+    margin: 1%;
+  }
+}
+
+@media screen and (min-width: 475px)
+{
+  div.stats-links{
+    height: 40px
+  }
+  .stats{
+    float: left;
+  }
+  .links{
+    float: right;
+  }
+}
